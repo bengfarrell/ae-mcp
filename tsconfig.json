@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "lib": ["es5"],
+    "downlevelIteration": true
+  },
+  "include": [
+    "src/**/*.ts" // specify your TypeScript source files
+  ]
+}
